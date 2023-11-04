@@ -53,6 +53,8 @@ To register a new user, make a POST request to the /register/ endpoint with the 
 - first_name: (optional) First name of the new user.
 - last_name: (optional) Last name of the new user.
 
+<img width="1246" alt="Screenshot 2023-11-04 at 5 38 05 PM" src="https://github.com/aayoushee01/bewyse-assignment/assets/75840618/6a43f931-d161-4302-8cdc-9c37ed712586">
+
 ### Login
 
 To log in as a user, make a POST request to the /login/ endpoint with the following data in the request body:
@@ -60,14 +62,25 @@ To log in as a user, make a POST request to the /login/ endpoint with the follow
 - username: Username of the user.
 - password: Password of the user.
 
-Upon successful login, you will receive a custom token that you can use for further authentication(By generating id_token which will be used for viewing other views).
+<img width="1246" alt="Screenshot 2023-11-04 at 5 38 34 PM" src="https://github.com/aayoushee01/bewyse-assignment/assets/75840618/51dfbd94-c89b-4347-a03c-164c6d5fa1ac">
+
+
+Upon successful login, you will receive a custom token that you can use for further authentication(By generating id_token which will be used for viewing other views) as shown bellow.
+<img width="1246" alt="Screenshot 2023-11-04 at 5 39 17 PM" src="https://github.com/aayoushee01/bewyse-assignment/assets/75840618/6a8e4bf6-9ad0-4257-87c6-9b4ab5045dfb">
+
 
 #### Protected Views
 This project includes a sample protected view (protected_view) as an example. These views are accessible only with a valid custom token.
 
 ##### Edit Profile
 To edit the user's profile, make a POST request to the /edit_profile/ endpoint with a valid custom token in the Authorization header. You can update the first_name, last_name, and username fields.
+<img width="1246" alt="Screenshot 2023-11-04 at 5 40 20 PM" src="https://github.com/aayoushee01/bewyse-assignment/assets/75840618/ff2244bd-4035-447c-8818-76da5095807e">
+
 
 ##### View Profile
 To view the user's profile, make a GET request to the /view_profile/ endpoint with a valid custom token in the Authorization header. This endpoint displays the user's profile information.
+
+<img width="1246" alt="Screenshot 2023-11-04 at 5 40 29 PM" src="https://github.com/aayoushee01/bewyse-assignment/assets/75840618/c55c5ab7-5d74-40f4-a99b-8ed640e94152">
+
+
 
