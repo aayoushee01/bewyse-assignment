@@ -1,0 +1,1384 @@
+INFO 2023-11-03 17:47:36,603 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-03 17:47:36,859 database New MongoClient connection
+DEBUG 2023-11-03 17:47:36,865 base New Database connection
+DEBUG 2023-11-03 17:47:36,877 query sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+DEBUG 2023-11-03 17:47:36,878 query Find query: {'projection': ['id', 'app', 'name', 'applied']}
+DEBUG 2023-11-03 17:47:36,879 query Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2023, 11, 3, 10, 5, 14, 993000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (2, 'auth', '0001_initial', datetime.datetime(2023, 11, 3, 10, 5, 17, 379000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (3, 'admin', '0001_initial', datetime.datetime(2023, 11, 3, 10, 5, 17, 815000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2023, 11, 3, 10, 5, 17, 829000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2023, 11, 3, 10, 5, 17, 843000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2023, 11, 3, 10, 10, 38, 755000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2023, 11, 3, 10, 10, 38, 759000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2023, 11, 3, 10, 10, 38, 764000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2023, 11, 3, 10, 10, 38, 772000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2023, 11, 3, 10, 10, 38, 778000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2023, 11, 3, 10, 10, 38, 785000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2023, 11, 3, 10, 10, 38, 798000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2023, 11, 3, 10, 10, 38, 805000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2023, 11, 3, 10, 10, 38, 812000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2023, 11, 3, 10, 10, 38, 820000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2023, 11, 3, 10, 10, 38, 827000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (17, 'auth', '0012_alter_user_first_name_max_length', datetime.datetime(2023, 11, 3, 10, 10, 38, 832000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (18, 'sessions', '0001_initial', datetime.datetime(2023, 11, 3, 10, 10, 39, 95000))
+DEBUG 2023-11-03 17:47:36,879 query Result: (19, 'myapp', '0001_initial', datetime.datetime(2023, 11, 3, 10, 52, 32, 645000))
+INFO 2023-11-03 17:47:37,955 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myproject/settings.py changed, reloading.
+INFO 2023-11-03 17:47:38,759 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-03 17:47:38,959 database New MongoClient connection
+DEBUG 2023-11-03 17:47:38,964 base New Database connection
+DEBUG 2023-11-03 17:47:38,977 query sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+DEBUG 2023-11-03 17:47:38,978 query Find query: {'projection': ['id', 'app', 'name', 'applied']}
+DEBUG 2023-11-03 17:47:38,979 query Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2023, 11, 3, 10, 5, 14, 993000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (2, 'auth', '0001_initial', datetime.datetime(2023, 11, 3, 10, 5, 17, 379000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (3, 'admin', '0001_initial', datetime.datetime(2023, 11, 3, 10, 5, 17, 815000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2023, 11, 3, 10, 5, 17, 829000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2023, 11, 3, 10, 5, 17, 843000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2023, 11, 3, 10, 10, 38, 755000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2023, 11, 3, 10, 10, 38, 759000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2023, 11, 3, 10, 10, 38, 764000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2023, 11, 3, 10, 10, 38, 772000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2023, 11, 3, 10, 10, 38, 778000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2023, 11, 3, 10, 10, 38, 785000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2023, 11, 3, 10, 10, 38, 798000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2023, 11, 3, 10, 10, 38, 805000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2023, 11, 3, 10, 10, 38, 812000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2023, 11, 3, 10, 10, 38, 820000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2023, 11, 3, 10, 10, 38, 827000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (17, 'auth', '0012_alter_user_first_name_max_length', datetime.datetime(2023, 11, 3, 10, 10, 38, 832000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (18, 'sessions', '0001_initial', datetime.datetime(2023, 11, 3, 10, 10, 39, 95000))
+DEBUG 2023-11-03 17:47:38,979 query Result: (19, 'myapp', '0001_initial', datetime.datetime(2023, 11, 3, 10, 52, 32, 645000))
+INFO 2023-11-03 17:47:42,618 views Custom TokeneyJhbGciOiAiUlMyNTYiLCAidHlwIjogIkpXVCIsICJraWQiOiAiNDQ1M2UyNDkxMmUzMTE0YmIyOWY4NjI1MGYwMjdmZmJiZjgxMGVhOCJ9.eyJpc3MiOiAiZmlyZWJhc2UtYWRtaW5zZGstcnpxdzhAYmV3eXNlYXNzLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgInN1YiI6ICJmaXJlYmFzZS1hZG1pbnNkay1yenF3OEBiZXd5c2Vhc3MuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCAiYXVkIjogImh0dHBzOi8vaWRlbnRpdHl0b29sa2l0Lmdvb2dsZWFwaXMuY29tL2dvb2dsZS5pZGVudGl0eS5pZGVudGl0eXRvb2xraXQudjEuSWRlbnRpdHlUb29sa2l0IiwgInVpZCI6ICJ0ZXN0dXNlcjFfN04xciIsICJpYXQiOiAxNjk5MDMzMDc2LCAiZXhwIjogMTY5OTAzNjY3Nn0.kXwaJQNuGKCSN90_RWbcT669Y9TmmaNOXtgVv-BJYZlhpj-CmU9zqFkEi-x4O7sVV-Paickr25vRlwVaY04WJAvJ5LLGzIRqR8IcKmxH7qUaMeKV3MywvO6KWJIvqMKaZDzj8Zo1i-ExXbwB_r8WZ04cXWonzdgxd5bKlcKA1iaAEnaRZIv-lJlBdPC6LLZ4HvTi9p10oxus4cqLJpvIDgOXRom78yLtz6mcUqPmp4tgB8eI7P3W9eRjPHfY2mRJXaI0LTkELIx0T2uciFzD55WtIt98oZdeV5B3ibrAfjafMHs29aE4Hscc-T1H3Jz5MUH001MB9FWErXiMXSMrDg
+DEBUG 2023-11-03 17:47:42,619 retry Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+WARNING 2023-11-03 17:47:42,622 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-03 17:47:49,196 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myproject/settings.py changed, reloading.
+INFO 2023-11-03 17:47:49,894 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 17:47:52,027 views Custom TokeneyJhbGciOiAiUlMyNTYiLCAidHlwIjogIkpXVCIsICJraWQiOiAiNDQ1M2UyNDkxMmUzMTE0YmIyOWY4NjI1MGYwMjdmZmJiZjgxMGVhOCJ9.eyJpc3MiOiAiZmlyZWJhc2UtYWRtaW5zZGstcnpxdzhAYmV3eXNlYXNzLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgInN1YiI6ICJmaXJlYmFzZS1hZG1pbnNkay1yenF3OEBiZXd5c2Vhc3MuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCAiYXVkIjogImh0dHBzOi8vaWRlbnRpdHl0b29sa2l0Lmdvb2dsZWFwaXMuY29tL2dvb2dsZS5pZGVudGl0eS5pZGVudGl0eXRvb2xraXQudjEuSWRlbnRpdHlUb29sa2l0IiwgInVpZCI6ICJ0ZXN0dXNlcjFfN04xciIsICJpYXQiOiAxNjk5MDMzMDc2LCAiZXhwIjogMTY5OTAzNjY3Nn0.kXwaJQNuGKCSN90_RWbcT669Y9TmmaNOXtgVv-BJYZlhpj-CmU9zqFkEi-x4O7sVV-Paickr25vRlwVaY04WJAvJ5LLGzIRqR8IcKmxH7qUaMeKV3MywvO6KWJIvqMKaZDzj8Zo1i-ExXbwB_r8WZ04cXWonzdgxd5bKlcKA1iaAEnaRZIv-lJlBdPC6LLZ4HvTi9p10oxus4cqLJpvIDgOXRom78yLtz6mcUqPmp4tgB8eI7P3W9eRjPHfY2mRJXaI0LTkELIx0T2uciFzD55WtIt98oZdeV5B3ibrAfjafMHs29aE4Hscc-T1H3Jz5MUH001MB9FWErXiMXSMrDg
+WARNING 2023-11-03 17:47:52,028 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-03 17:47:58,305 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myproject/settings.py changed, reloading.
+INFO 2023-11-03 17:47:59,056 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 17:49:01,499 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 17:49:02,301 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 17:49:03,583 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 17:49:03,926 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 17:49:10,218 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 17:49:10,583 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 17:49:12,639 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 17:49:13,020 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 17:49:14,321 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 17:49:15,114 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 17:49:20,740 views Custom TokeneyJhbGciOiAiUlMyNTYiLCAidHlwIjogIkpXVCIsICJraWQiOiAiNDQ1M2UyNDkxMmUzMTE0YmIyOWY4NjI1MGYwMjdmZmJiZjgxMGVhOCJ9.eyJpc3MiOiAiZmlyZWJhc2UtYWRtaW5zZGstcnpxdzhAYmV3eXNlYXNzLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgInN1YiI6ICJmaXJlYmFzZS1hZG1pbnNkay1yenF3OEBiZXd5c2Vhc3MuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCAiYXVkIjogImh0dHBzOi8vaWRlbnRpdHl0b29sa2l0Lmdvb2dsZWFwaXMuY29tL2dvb2dsZS5pZGVudGl0eS5pZGVudGl0eXRvb2xraXQudjEuSWRlbnRpdHlUb29sa2l0IiwgInVpZCI6ICJ0ZXN0dXNlcjFfN04xciIsICJpYXQiOiAxNjk5MDMzMDc2LCAiZXhwIjogMTY5OTAzNjY3Nn0.kXwaJQNuGKCSN90_RWbcT669Y9TmmaNOXtgVv-BJYZlhpj-CmU9zqFkEi-x4O7sVV-Paickr25vRlwVaY04WJAvJ5LLGzIRqR8IcKmxH7qUaMeKV3MywvO6KWJIvqMKaZDzj8Zo1i-ExXbwB_r8WZ04cXWonzdgxd5bKlcKA1iaAEnaRZIv-lJlBdPC6LLZ4HvTi9p10oxus4cqLJpvIDgOXRom78yLtz6mcUqPmp4tgB8eI7P3W9eRjPHfY2mRJXaI0LTkELIx0T2uciFzD55WtIt98oZdeV5B3ibrAfjafMHs29aE4Hscc-T1H3Jz5MUH001MB9FWErXiMXSMrDg
+WARNING 2023-11-03 17:49:20,742 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-03 17:50:10,475 views Custom TokeneyJhbGciOiAiUlMyNTYiLCAidHlwIjogIkpXVCIsICJraWQiOiAiNDQ1M2UyNDkxMmUzMTE0YmIyOWY4NjI1MGYwMjdmZmJiZjgxMGVhOCJ9.eyJpc3MiOiAiZmlyZWJhc2UtYWRtaW5zZGstcnpxdzhAYmV3eXNlYXNzLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgInN1YiI6ICJmaXJlYmFzZS1hZG1pbnNkay1yenF3OEBiZXd5c2Vhc3MuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCAiYXVkIjogImh0dHBzOi8vaWRlbnRpdHl0b29sa2l0Lmdvb2dsZWFwaXMuY29tL2dvb2dsZS5pZGVudGl0eS5pZGVudGl0eXRvb2xraXQudjEuSWRlbnRpdHlUb29sa2l0IiwgInVpZCI6ICJ0ZXN0dXNlcjFfN04xciIsICJpYXQiOiAxNjk5MDMzNzk5LCAiZXhwIjogMTY5OTAzNzM5OX0.UUWllDB1qKVWWMCfla2gkCwXbwiPU1RPBOYQw3cCzJfxEob97tSuZy9oZJEHYxg-I-UlbyWyzro_yMfK8PWa7SFHRSThj7F3A3amuTa1tpdZ-DvO4tGYpCr0R0Ariw1FPXCjxq0u1vyDlfM8SCo75C6kZEoxsPKW2AE-T2eXtdyGgQArxQ45pcZJUS7JX6XvdWNLjX6c7WFRkSlCqjhg7l50NiWzA3UKywoTyMhQThbcm8SPMaZ3jEwek4u8AMNiGqFXjPIoaESv9WWtx5XmnHG9aQn_aORUqNi-P_4peSi1cwzxw4MFmB1jtMy6peViW10u7gZ5LOOQ28hO277fcg
+WARNING 2023-11-03 17:50:10,476 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-03 18:23:35,440 views Custom Token
+WARNING 2023-11-03 18:23:35,443 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-03 21:51:02,299 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:51:03,400 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:51:49,218 views Custom TokeneyJhbGciOiAiUlMyNTYiLCAidHlwIjogIkpXVCIsICJraWQiOiAiNDQ1M2UyNDkxMmUzMTE0YmIyOWY4NjI1MGYwMjdmZmJiZjgxMGVhOCJ9.eyJpc3MiOiAiZmlyZWJhc2UtYWRtaW5zZGstcnpxdzhAYmV3eXNlYXNzLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgInN1YiI6ICJmaXJlYmFzZS1hZG1pbnNkay1yenF3OEBiZXd5c2Vhc3MuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCAiYXVkIjogImh0dHBzOi8vaWRlbnRpdHl0b29sa2l0Lmdvb2dsZWFwaXMuY29tL2dvb2dsZS5pZGVudGl0eS5pZGVudGl0eXRvb2xraXQudjEuSWRlbnRpdHlUb29sa2l0IiwgInVpZCI6ICJ0ZXN0dXNlcjFfN04xciIsICJpYXQiOiAxNjk5MDQ4MjkxLCAiZXhwIjogMTY5OTA1MTg5MX0.Pybpsa7b-_oz_M-QqY1BcC4hqPaLdxqCtL6xFYABTycom4bISWiXZOGXOUXS0nSeSVeXOM-valKRO5U-BfBdcQ0hCM1t6r2n9ogJVdu4n0OYUeOkQNhwEv54psAt98BcFKneHf1lEyMxuKvffNRv_fgXjv2L7rjzYwVp1q61xSKDwiGrRcXENrj4maNK-hIa-3v-CcrmM3sm8BuskiU6PLyd5WZ7OXF8lx17C0d1PMGsSKPo4JUGYaOJAWGI4klvkRXuYk8_tQK72Z9N9sBdjUtOIM5naARHm0RSMRpKmcdTlGk-ZKUpCVyBJBe5J_4ooXvOiufm6cVRo2tDz6PSFg
+WARNING 2023-11-03 21:51:49,219 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-03 21:52:01,962 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:52:03,029 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:52:48,260 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:52:49,047 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:52:58,476 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:52:59,380 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:53:15,990 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:53:16,803 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:53:20,191 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:53:21,083 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:53:25,421 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:53:26,239 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:53:28,318 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:53:28,800 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:53:30,128 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:53:30,937 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:53:42,850 views Custom TokeneyJhbGciOiAiUlMyNTYiLCAidHlwIjogIkpXVCIsICJraWQiOiAiNDQ1M2UyNDkxMmUzMTE0YmIyOWY4NjI1MGYwMjdmZmJiZjgxMGVhOCJ9.eyJpc3MiOiAiZmlyZWJhc2UtYWRtaW5zZGstcnpxdzhAYmV3eXNlYXNzLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgInN1YiI6ICJmaXJlYmFzZS1hZG1pbnNkay1yenF3OEBiZXd5c2Vhc3MuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCAiYXVkIjogImh0dHBzOi8vaWRlbnRpdHl0b29sa2l0Lmdvb2dsZWFwaXMuY29tL2dvb2dsZS5pZGVudGl0eS5pZGVudGl0eXRvb2xraXQudjEuSWRlbnRpdHlUb29sa2l0IiwgInVpZCI6ICJ0ZXN0dXNlcjFfN04xciIsICJpYXQiOiAxNjk5MDQ4MjkxLCAiZXhwIjogMTY5OTA1MTg5MX0.Pybpsa7b-_oz_M-QqY1BcC4hqPaLdxqCtL6xFYABTycom4bISWiXZOGXOUXS0nSeSVeXOM-valKRO5U-BfBdcQ0hCM1t6r2n9ogJVdu4n0OYUeOkQNhwEv54psAt98BcFKneHf1lEyMxuKvffNRv_fgXjv2L7rjzYwVp1q61xSKDwiGrRcXENrj4maNK-hIa-3v-CcrmM3sm8BuskiU6PLyd5WZ7OXF8lx17C0d1PMGsSKPo4JUGYaOJAWGI4klvkRXuYk8_tQK72Z9N9sBdjUtOIM5naARHm0RSMRpKmcdTlGk-ZKUpCVyBJBe5J_4ooXvOiufm6cVRo2tDz6PSFg
+INFO 2023-11-03 21:53:42,850 views Info
+WARNING 2023-11-03 21:53:42,852 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-03 21:54:09,886 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:54:10,800 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:54:17,222 views Info
+INFO 2023-11-03 21:54:17,223 views Custom TokeneyJhbGciOiAiUlMyNTYiLCAidHlwIjogIkpXVCIsICJraWQiOiAiNDQ1M2UyNDkxMmUzMTE0YmIyOWY4NjI1MGYwMjdmZmJiZjgxMGVhOCJ9.eyJpc3MiOiAiZmlyZWJhc2UtYWRtaW5zZGstcnpxdzhAYmV3eXNlYXNzLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgInN1YiI6ICJmaXJlYmFzZS1hZG1pbnNkay1yenF3OEBiZXd5c2Vhc3MuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCAiYXVkIjogImh0dHBzOi8vaWRlbnRpdHl0b29sa2l0Lmdvb2dsZWFwaXMuY29tL2dvb2dsZS5pZGVudGl0eS5pZGVudGl0eXRvb2xraXQudjEuSWRlbnRpdHlUb29sa2l0IiwgInVpZCI6ICJ0ZXN0dXNlcjFfN04xciIsICJpYXQiOiAxNjk5MDQ4MjkxLCAiZXhwIjogMTY5OTA1MTg5MX0.Pybpsa7b-_oz_M-QqY1BcC4hqPaLdxqCtL6xFYABTycom4bISWiXZOGXOUXS0nSeSVeXOM-valKRO5U-BfBdcQ0hCM1t6r2n9ogJVdu4n0OYUeOkQNhwEv54psAt98BcFKneHf1lEyMxuKvffNRv_fgXjv2L7rjzYwVp1q61xSKDwiGrRcXENrj4maNK-hIa-3v-CcrmM3sm8BuskiU6PLyd5WZ7OXF8lx17C0d1PMGsSKPo4JUGYaOJAWGI4klvkRXuYk8_tQK72Z9N9sBdjUtOIM5naARHm0RSMRpKmcdTlGk-ZKUpCVyBJBe5J_4ooXvOiufm6cVRo2tDz6PSFg
+WARNING 2023-11-03 21:54:17,225 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-03 21:54:35,626 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:54:36,288 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:54:39,503 views Info
+INFO 2023-11-03 21:54:39,503 views Custom TokeneyJhbGciOiAiUlMyNTYiLCAidHlwIjogIkpXVCIsICJraWQiOiAiNDQ1M2UyNDkxMmUzMTE0YmIyOWY4NjI1MGYwMjdmZmJiZjgxMGVhOCJ9.eyJpc3MiOiAiZmlyZWJhc2UtYWRtaW5zZGstcnpxdzhAYmV3eXNlYXNzLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgInN1YiI6ICJmaXJlYmFzZS1hZG1pbnNkay1yenF3OEBiZXd5c2Vhc3MuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCAiYXVkIjogImh0dHBzOi8vaWRlbnRpdHl0b29sa2l0Lmdvb2dsZWFwaXMuY29tL2dvb2dsZS5pZGVudGl0eS5pZGVudGl0eXRvb2xraXQudjEuSWRlbnRpdHlUb29sa2l0IiwgInVpZCI6ICJ0ZXN0dXNlcjFfN04xciIsICJpYXQiOiAxNjk5MDQ4MjkxLCAiZXhwIjogMTY5OTA1MTg5MX0.Pybpsa7b-_oz_M-QqY1BcC4hqPaLdxqCtL6xFYABTycom4bISWiXZOGXOUXS0nSeSVeXOM-valKRO5U-BfBdcQ0hCM1t6r2n9ogJVdu4n0OYUeOkQNhwEv54psAt98BcFKneHf1lEyMxuKvffNRv_fgXjv2L7rjzYwVp1q61xSKDwiGrRcXENrj4maNK-hIa-3v-CcrmM3sm8BuskiU6PLyd5WZ7OXF8lx17C0d1PMGsSKPo4JUGYaOJAWGI4klvkRXuYk8_tQK72Z9N9sBdjUtOIM5naARHm0RSMRpKmcdTlGk-ZKUpCVyBJBe5J_4ooXvOiufm6cVRo2tDz6PSFg
+WARNING 2023-11-03 21:54:39,505 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-03 21:55:36,837 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:55:37,636 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:55:41,029 views Info
+INFO 2023-11-03 21:55:41,030 views Custom TokeneyJhbGciOiAiUlMyNTYiLCAidHlwIjogIkpXVCIsICJraWQiOiAiNDQ1M2UyNDkxMmUzMTE0YmIyOWY4NjI1MGYwMjdmZmJiZjgxMGVhOCJ9.eyJpc3MiOiAiZmlyZWJhc2UtYWRtaW5zZGstcnpxdzhAYmV3eXNlYXNzLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgInN1YiI6ICJmaXJlYmFzZS1hZG1pbnNkay1yenF3OEBiZXd5c2Vhc3MuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCAiYXVkIjogImh0dHBzOi8vaWRlbnRpdHl0b29sa2l0Lmdvb2dsZWFwaXMuY29tL2dvb2dsZS5pZGVudGl0eS5pZGVudGl0eXRvb2xraXQudjEuSWRlbnRpdHlUb29sa2l0IiwgInVpZCI6ICJ0ZXN0dXNlcjFfN04xciIsICJpYXQiOiAxNjk5MDQ4MjkxLCAiZXhwIjogMTY5OTA1MTg5MX0.Pybpsa7b-_oz_M-QqY1BcC4hqPaLdxqCtL6xFYABTycom4bISWiXZOGXOUXS0nSeSVeXOM-valKRO5U-BfBdcQ0hCM1t6r2n9ogJVdu4n0OYUeOkQNhwEv54psAt98BcFKneHf1lEyMxuKvffNRv_fgXjv2L7rjzYwVp1q61xSKDwiGrRcXENrj4maNK-hIa-3v-CcrmM3sm8BuskiU6PLyd5WZ7OXF8lx17C0d1PMGsSKPo4JUGYaOJAWGI4klvkRXuYk8_tQK72Z9N9sBdjUtOIM5naARHm0RSMRpKmcdTlGk-ZKUpCVyBJBe5J_4ooXvOiufm6cVRo2tDz6PSFg
+WARNING 2023-11-03 21:55:41,031 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-03 21:56:10,660 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:56:11,647 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:56:17,136 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:56:17,936 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:56:20,289 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:56:21,071 autoreload Watching for file changes with StatReloader
+INFO 2023-11-03 21:56:26,411 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-03 21:56:27,217 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-03 21:57:32,302 log Not Found: /
+WARNING 2023-11-03 21:57:32,365 log Not Found: /favicon.ico
+WARNING 2023-11-03 21:57:52,341 log Not Found: /
+ERROR 2023-11-03 21:58:14,569 log Internal Server Error: /myapp/profile/view/
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/renderers.py", line 722, in render
+    template = loader.get_template(self.template)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+INFO 2023-11-03 21:58:40,277 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-03 21:58:53,028 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-04 05:56:29,354 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 05:56:30,573 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 05:56:54,176 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-04 05:57:10,661 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 05:57:11,648 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 05:58:38,557 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 05:58:39,655 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 05:58:48,979 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-04 05:59:13,502 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 05:59:14,391 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 05:59:21,893 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 05:59:22,763 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 05:59:36,365 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 05:59:37,156 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 05:59:38,569 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 05:59:39,421 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 05:59:48,792 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 05:59:49,598 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 05:59:51,933 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 05:59:52,685 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 05:59:59,057 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 05:59:59,797 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:00:04,130 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:00:04,886 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:00:05,949 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:00:06,363 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:00:11,741 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:00:12,678 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 06:00:15,016 log Internal Server Error: /myapp/profile/view/
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py", line 130, in view_profile
+    username = decoded_token.get('sub')  # 'sub' is the subject (username)
+               ^^^^^^^^^^^^^^^^^
+AttributeError: 'InvalidIdTokenError' object has no attribute 'get'
+INFO 2023-11-04 06:00:47,524 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:00:48,456 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:00:54,897 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:00:55,647 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 06:00:57,504 log Internal Server Error: /myapp/profile/view/
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type InvalidIdTokenError is not JSON serializable
+INFO 2023-11-04 06:01:12,320 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:01:13,039 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:01:15,366 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:01:16,203 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:01:18,512 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:01:19,395 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:09:00,484 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:09:01,547 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:09:04,973 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:09:05,755 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:09:11,086 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:09:11,895 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:09:14,227 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:09:15,018 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:09:17,314 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:09:18,114 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:09:23,463 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:09:24,339 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:09:27,661 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:09:28,479 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:09:29,532 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:09:29,882 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:09:31,172 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:09:32,222 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:09:44,666 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:09:45,474 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:10:00,941 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:10:01,791 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:10:05,874 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:10:06,200 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:10:07,551 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:10:08,383 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:10:20,852 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:10:21,656 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:10:51,262 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:10:52,087 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:11:25,931 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:11:27,069 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:11:40,629 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:11:41,522 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 06:12:29,181 log Internal Server Error: /myapp/login/
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py", line 101, in login
+    custom_token = auth.create_custom_token(user.email)
+                                            ^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'email'
+INFO 2023-11-04 06:12:55,525 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:12:56,149 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:12:58,206 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:12:58,534 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:13:00,588 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:13:00,934 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 06:13:18,501 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-04 06:15:03,294 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:15:04,303 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:15:06,400 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:15:06,787 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:20:30,000 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:20:30,956 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:20:34,050 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:20:34,373 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:20:50,881 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:20:51,782 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:20:55,167 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:20:55,966 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 06:21:42,793 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-04 06:22:59,668 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:23:00,270 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:24:10,889 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:24:11,690 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:24:14,079 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:24:14,893 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 06:24:17,767 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-04 06:24:33,517 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:24:34,325 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:24:38,729 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:24:39,498 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:24:46,580 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:24:46,958 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:28:09,068 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:28:09,916 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:28:11,256 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:28:12,272 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:28:34,969 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:28:35,610 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:28:41,999 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:28:42,853 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:28:47,189 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:28:48,066 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:28:51,139 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:28:51,459 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:29:10,027 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:29:10,918 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:29:11,971 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:29:12,315 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:29:53,503 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:29:54,365 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:29:58,791 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:29:59,607 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:30:00,666 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:30:00,999 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:30:03,060 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:30:03,445 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:30:04,520 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:30:04,898 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 06:30:07,317 log Internal Server Error: /myapp/profile/view/
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type InvalidIdTokenError is not JSON serializable
+WARNING 2023-11-04 06:49:41,812 log Unauthorized: /myapp/login/
+INFO 2023-11-04 06:50:30,982 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:50:31,982 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:50:34,068 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:50:34,392 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:50:37,770 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:50:38,558 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 06:50:51,717 log Unauthorized: /myapp/login/
+INFO 2023-11-04 06:55:25,420 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:55:26,522 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 06:55:31,360 log Internal Server Error: /myapp/profile/view/
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type InvalidIdTokenError is not JSON serializable
+INFO 2023-11-04 06:58:18,182 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:58:19,018 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:58:24,452 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:58:25,240 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 06:58:29,629 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 06:58:30,854 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:01:20,283 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:01:21,293 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:01:23,694 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:01:24,526 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 07:01:30,975 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-04 07:01:52,266 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:01:52,890 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:01:55,192 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:01:55,909 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:01:57,977 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:01:58,346 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:02:02,680 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:02:03,460 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:02:08,839 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:02:09,613 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 07:02:16,302 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-04 07:06:48,720 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:06:49,784 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:06:53,172 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:06:54,025 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:06:56,087 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:06:56,429 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:07:00,509 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:07:00,851 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:07:41,874 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myproject/settings.py changed, reloading.
+INFO 2023-11-04 07:07:42,735 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:08:04,269 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myproject/settings.py changed, reloading.
+INFO 2023-11-04 07:08:04,702 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:08:20,058 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myproject/settings.py changed, reloading.
+INFO 2023-11-04 07:08:20,595 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:08:25,853 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myproject/settings.py changed, reloading.
+INFO 2023-11-04 07:08:26,288 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:09:12,008 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myproject/settings.py changed, reloading.
+INFO 2023-11-04 07:09:12,491 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:09:19,754 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myproject/settings.py changed, reloading.
+INFO 2023-11-04 07:09:20,171 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:09:23,336 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myproject/settings.py changed, reloading.
+INFO 2023-11-04 07:09:23,762 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:10:43,086 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myproject/settings.py changed, reloading.
+INFO 2023-11-04 07:10:43,554 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:10:57,003 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myproject/settings.py changed, reloading.
+INFO 2023-11-04 07:10:57,522 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 07:12:09,817 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-04 07:13:03,247 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:13:04,092 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:13:05,469 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:13:06,277 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:13:10,608 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:13:11,377 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:13:16,736 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:13:17,478 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 07:13:21,235 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-04 07:14:56,372 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:14:57,291 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:15:17,943 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:15:18,786 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:15:20,130 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:15:20,931 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:22:09,680 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:22:10,401 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:22:13,477 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:22:13,878 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 07:38:02,856 log Unauthorized: /myapp/profile/view/
+WARNING 2023-11-04 07:39:24,494 log Unauthorized: /myapp/profile/view/
+WARNING 2023-11-04 07:52:00,729 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-04 07:53:06,638 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:53:07,793 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:53:09,206 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:53:09,996 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:53:11,361 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:53:12,172 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 07:53:21,584 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:53:22,465 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 07:54:04,854 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-04 07:56:43,561 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 07:56:44,502 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 08:04:46,821 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-04 08:07:42,006 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:07:42,549 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:07:45,889 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:07:46,687 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 08:11:27,738 log Unauthorized: /myapp/login/
+INFO 2023-11-04 08:16:06,760 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:16:07,751 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:16:17,213 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:16:18,083 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:16:19,431 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:16:20,273 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:16:23,342 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:16:23,650 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:16:30,111 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:16:30,843 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:16:43,332 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:16:44,192 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:16:56,742 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:16:57,538 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:17:02,951 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:17:03,745 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:17:08,085 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:17:08,863 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:17:13,197 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:17:13,970 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:17:27,403 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:17:28,268 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:17:30,578 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:17:31,512 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:17:37,875 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:17:38,644 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:17:53,092 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:17:54,418 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:18:12,009 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:18:12,802 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 08:26:02,706 log Unauthorized: /myapp/profile/view/
+INFO 2023-11-04 08:26:18,880 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:26:19,955 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:26:21,312 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:26:22,092 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:26:23,396 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:26:24,263 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:27:50,191 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:27:51,004 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:27:52,364 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:27:53,243 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 08:29:28,223 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 08:29:29,209 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:36:08,539 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:36:09,555 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:36:11,928 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:36:12,724 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:36:14,013 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:36:14,885 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:36:42,675 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:36:43,777 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:36:55,196 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:36:56,047 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:37:07,547 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:37:08,385 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:37:34,166 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:37:35,119 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:37:40,506 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:37:41,317 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:37:43,608 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:37:44,365 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:37:45,656 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:37:46,441 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:37:56,842 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:37:57,773 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:38:20,436 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:38:21,156 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:39:20,586 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:39:21,435 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:39:24,816 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:39:25,610 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:39:31,979 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:39:32,809 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:39:39,196 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:39:39,917 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:40:51,536 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:40:52,237 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:40:53,559 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:40:54,368 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:40:55,651 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:40:56,498 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:41:12,020 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:41:12,754 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:41:15,100 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:41:15,920 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:41:24,310 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:41:25,060 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:41:26,399 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:41:27,245 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:41:30,571 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:41:31,410 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:41:35,774 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:41:36,529 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:41:37,823 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:41:38,652 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:42:41,962 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:42:42,940 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:43:31,108 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:43:32,101 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:43:40,567 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:43:41,444 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:43:42,775 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:43:43,629 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:44:03,155 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:44:03,899 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:44:05,219 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:44:06,066 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:46:13,705 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:46:14,683 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:46:21,112 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:46:21,917 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:46:22,974 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:46:23,373 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:46:25,744 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:46:26,497 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:46:27,793 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:46:28,601 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:46:29,904 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:46:30,693 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:46:47,186 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:46:47,951 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:46:50,015 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:46:50,367 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:46:56,763 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:46:57,528 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:46:59,588 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:46:59,914 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:47:05,018 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:47:05,364 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:47:13,842 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:47:14,600 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:48:24,305 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:48:25,282 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:48:40,872 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:48:41,622 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:48:42,936 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:48:43,773 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:48:53,157 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:48:53,930 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:48:54,983 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:48:55,378 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:48:57,441 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:48:57,800 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:49:05,218 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:49:05,949 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:49:16,378 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:49:17,205 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:49:19,254 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:49:19,563 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:49:23,631 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:49:24,014 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:49:25,086 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:49:25,425 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:49:27,759 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:49:28,539 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:49:42,991 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:49:43,867 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:49:48,213 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:49:49,006 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:49:50,327 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:49:51,127 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:50:09,660 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:50:10,415 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:50:11,747 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:50:12,477 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:50:15,777 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:50:16,537 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:50:19,867 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:50:20,705 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:50:25,021 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:50:25,836 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:50:29,160 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:50:29,918 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:50:32,227 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:50:33,019 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:50:35,332 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:50:36,089 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:50:37,405 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:50:38,222 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:50:40,539 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:50:41,355 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:50:45,694 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:50:46,560 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:51:00,044 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:51:00,867 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:51:02,229 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:51:03,021 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:51:05,324 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:51:06,124 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:51:07,414 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:51:08,168 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:51:38,872 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:51:39,537 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:51:41,587 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:51:41,918 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:51:43,975 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:51:44,281 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:51:45,630 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:51:46,443 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:52:01,900 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:52:02,734 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:52:09,122 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:52:09,891 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:53:04,876 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:53:05,675 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:53:10,074 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:53:10,922 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:53:17,263 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:53:18,067 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:53:31,552 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:53:32,395 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:53:33,708 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:53:34,527 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:53:39,849 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:53:40,668 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:53:41,949 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:53:42,773 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:53:46,082 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:53:47,225 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:53:58,755 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:53:59,451 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:54:03,818 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:54:04,572 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:54:06,861 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:54:07,722 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:54:08,772 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:54:09,127 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:54:10,182 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:54:10,528 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:54:11,833 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:54:12,610 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:54:39,257 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:54:39,956 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:55:41,277 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:55:42,232 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:55:50,663 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:55:51,622 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:55:52,674 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:55:52,997 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:55:54,330 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:55:55,116 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:56:01,222 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:56:01,566 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:56:03,621 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:56:03,936 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:56:05,998 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:56:06,349 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:56:08,713 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:56:09,492 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:56:14,825 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:56:15,612 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:56:18,684 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:56:19,001 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:56:20,282 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:56:21,141 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:56:22,196 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:56:22,590 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:56:27,938 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:56:28,708 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:57:07,540 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:57:08,422 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:57:17,811 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:57:18,564 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:57:19,867 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:57:20,648 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:57:25,000 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:57:25,754 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:57:36,152 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:57:36,969 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:57:45,409 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:57:46,200 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:57:49,541 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:57:50,321 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:57:51,635 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:57:52,473 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:57:54,795 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:57:55,763 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:58:12,369 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:58:13,101 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:58:15,455 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:58:16,262 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:58:56,146 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:58:57,007 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:59:04,524 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:59:05,301 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:59:18,767 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:59:19,572 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:59:46,193 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:59:47,025 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 09:59:49,096 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 09:59:49,411 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:00:11,038 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:00:11,796 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:00:18,203 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:00:18,973 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:03:03,540 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:03:04,425 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:03:48,269 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:03:49,217 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:03:57,629 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:03:58,425 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:04:21,074 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:04:21,850 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:04:28,250 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:04:29,138 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:04:36,564 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:04:37,508 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:04:39,890 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:04:40,703 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:04:42,760 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:04:43,114 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:04:50,465 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:04:51,308 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:04:53,596 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:04:54,404 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:04:56,677 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:04:57,472 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:04:58,764 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:04:59,507 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:07:54,763 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:07:55,419 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:08:13,034 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:08:13,788 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:08:15,104 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:08:15,919 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:08:20,001 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:08:20,357 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:08:21,709 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:08:22,496 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:08:25,815 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:08:26,621 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:09:06,635 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:09:07,672 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:09:10,029 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:09:10,801 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 10:10:53,662 log Internal Server Error: /myapp/profile/edit
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/myapp/profile/edit/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2023-11-04 10:11:31,047 log Internal Server Error: /myapp/profile/edit/
+INFO 2023-11-04 10:12:34,653 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:12:35,719 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:12:39,209 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:12:40,034 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:12:43,372 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:12:44,204 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 10:12:49,291 log Internal Server Error: /myapp/profile/edit/
+ERROR 2023-11-04 10:13:15,600 log Internal Server Error: /myapp/profile/edit/
+INFO 2023-11-04 10:13:42,498 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:13:43,413 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:13:44,756 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:13:45,611 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 10:13:49,104 log Internal Server Error: /myapp/profile/edit/
+INFO 2023-11-04 10:14:05,207 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:14:05,980 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 10:14:07,370 log Internal Server Error: /myapp/profile/edit/
+INFO 2023-11-04 10:14:31,775 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:14:32,453 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:14:35,543 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:14:35,872 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:14:38,226 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:14:38,952 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:14:47,313 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:14:48,058 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:14:51,401 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:14:52,216 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:14:54,539 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:14:55,423 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 10:15:00,862 log Internal Server Error: /myapp/profile/edit/
+INFO 2023-11-04 10:15:16,114 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:15:16,754 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:15:41,408 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:15:42,127 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:15:44,187 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:15:44,576 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:15:53,703 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:15:54,109 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:15:59,543 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:16:00,296 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:16:14,495 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:16:14,976 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:16:17,043 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:16:17,465 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:16:20,858 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:16:21,593 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:16:23,906 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:16:24,641 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:16:25,928 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:16:26,691 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:16:27,990 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:16:28,784 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 10:16:32,490 log Internal Server Error: /myapp/profile/edit/
+INFO 2023-11-04 10:16:45,340 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:16:46,056 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:18:48,277 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:18:49,138 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:18:55,553 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:18:56,333 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:18:57,660 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:18:58,476 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 10:19:01,913 log Internal Server Error: /myapp/profile/edit/
+INFO 2023-11-04 10:19:14,113 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:19:14,659 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:19:20,041 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:19:20,820 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:19:22,110 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:19:22,942 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 10:19:24,106 log Internal Server Error: /myapp/profile/edit/
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type NameError is not JSON serializable
+INFO 2023-11-04 10:19:39,522 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:19:40,229 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:19:42,289 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:19:42,607 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:19:43,916 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:19:44,800 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 10:19:45,769 log Internal Server Error: /myapp/profile/edit/
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py", line 171, in edit_profile
+    if first_name is not NULL:
+                         ^^^^
+NameError: name 'NULL' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py", line 191, in edit_profile
+    return Response({'error': e.message }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+                              ^^^^^^^^^
+AttributeError: 'NameError' object has no attribute 'message'
+INFO 2023-11-04 10:20:08,509 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:20:09,398 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 10:20:11,571 log Internal Server Error: /myapp/profile/edit/
+INFO 2023-11-04 10:20:31,071 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:20:31,790 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:20:38,166 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:20:39,102 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:21:10,984 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:21:11,925 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:21:12,986 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:21:13,324 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:21:19,724 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:21:20,451 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 10:23:24,665 connectionpool Retrying (Retry(total=9, connect=1, read=0, redirect=None, status=4)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='identitytoolkit.googleapis.com', port=443): Read timed out. (read timeout=120)")': /v1/projects/bewyseass/accounts
+WARNING 2023-11-04 10:23:25,679 connectionpool Retrying (Retry(total=8, connect=0, read=0, redirect=None, status=4)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10728f2d0>: Failed to resolve 'identitytoolkit.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)")': /v1/projects/bewyseass/accounts
+ERROR 2023-11-04 10:23:25,701 log Internal Server Error: /myapp/profile/edit/
+WARNING 2023-11-04 10:24:10,932 log Not Found: /myapp/profile/edit/
+INFO 2023-11-04 10:26:06,860 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:26:07,938 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:26:11,312 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:26:12,126 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:26:14,433 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:26:15,259 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:29:36,436 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:29:37,421 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:33:44,622 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:33:45,464 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:33:48,823 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:33:49,552 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:34:21,271 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:34:22,268 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:34:27,671 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:34:28,451 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:34:38,878 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:34:39,690 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:34:42,032 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:34:42,812 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:34:51,168 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:34:52,003 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:34:54,349 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:34:55,146 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:35:00,630 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:35:01,408 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:35:17,915 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:35:18,708 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:35:20,057 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:35:20,856 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:35:22,168 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:35:22,961 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:35:29,335 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:35:30,104 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:35:47,632 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:35:48,367 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:35:50,698 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:35:51,563 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 10:36:12,266 log Unauthorized: /myapp/login/
+INFO 2023-11-04 10:37:15,199 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:37:15,893 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:37:21,286 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:37:22,058 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:37:24,358 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:37:25,123 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:37:26,171 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:37:26,529 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:37:30,602 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:37:30,916 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 10:37:57,791 log Not Found: /myapp/profile/view/
+INFO 2023-11-04 10:38:41,577 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:38:42,154 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:38:43,483 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:38:44,487 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 10:39:23,399 log Not Found: /myapp/profile/view/
+INFO 2023-11-04 10:39:32,765 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:39:33,619 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:40:11,604 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:40:12,412 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:40:36,080 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:40:36,870 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:41:31,081 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:41:31,868 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:41:35,276 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:41:36,067 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:41:41,377 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:41:42,217 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:41:44,508 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:41:45,356 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:41:52,868 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:41:53,579 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:41:54,896 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:41:55,669 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 10:42:50,003 log Internal Server Error: /myapp/profile/edit/
+INFO 2023-11-04 10:46:50,447 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:46:50,950 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:46:54,367 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:46:55,138 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:46:58,439 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:46:59,212 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:47:01,509 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:47:02,393 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:47:03,690 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:47:04,454 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 10:47:24,378 log Internal Server Error: /myapp/register/
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py", line 72, in register
+    auth.create_user(email=email, password=password, uid=user['_id'])
+                                                         ~~~~^^^^^^^
+TypeError: 'User' object is not subscriptable
+INFO 2023-11-04 10:47:57,677 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:47:58,249 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:48:01,633 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:48:02,442 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:48:05,766 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:48:06,556 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:48:10,879 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:48:11,679 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:48:17,036 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:48:17,749 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:48:20,814 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:48:21,119 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 10:48:25,845 log Bad Request: /myapp/register/
+ERROR 2023-11-04 10:48:37,561 log Internal Server Error: /myapp/register/
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py", line 73, in register
+    auth.create_user(email=email, password=password, uid=user['_id'])
+                                                         ~~~~^^^^^^^
+TypeError: 'User' object is not subscriptable
+INFO 2023-11-04 10:48:51,978 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:48:52,535 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:48:55,609 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:48:55,977 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:48:57,024 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:48:57,449 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:51:37,140 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:51:37,922 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:52:13,714 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:52:14,503 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:52:21,957 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:52:22,865 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 10:52:26,631 log Bad Request: /myapp/register/
+ERROR 2023-11-04 10:52:32,529 log Internal Server Error: /myapp/register/
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py", line 72, in register
+    print(user.data)
+          ^^^^^^^^^
+AttributeError: 'User' object has no attribute 'data'
+INFO 2023-11-04 10:53:18,140 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:53:18,699 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:54:16,153 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:54:17,027 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:54:20,431 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:54:21,248 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:54:23,564 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:54:24,390 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:54:32,518 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:54:32,902 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:54:34,217 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:54:35,026 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:54:42,397 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:54:43,189 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:54:45,235 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:54:45,640 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-04 10:54:46,691 log Bad Request: /myapp/register/
+ERROR 2023-11-04 10:54:51,739 log Internal Server Error: /myapp/register/
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py", line 72, in register
+    print(str(user._id))
+              ^^^^^^^^
+AttributeError: 'User' object has no attribute '_id'
+INFO 2023-11-04 10:55:11,380 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:55:11,855 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:55:19,254 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:55:20,056 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 10:55:23,136 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:55:23,525 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-04 10:55:25,952 log Internal Server Error: /myapp/register/
+Traceback (most recent call last):
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myenv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py", line 73, in register
+    auth.create_user(email=email, password=password, uid=str(user['_id']))
+                                                             ~~~~^^^^^^^
+TypeError: 'User' object is not subscriptable
+INFO 2023-11-04 10:56:11,624 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 10:56:12,053 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:00:35,942 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 11:00:36,459 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:00:57,013 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/models.py changed, reloading.
+INFO 2023-11-04 11:00:57,871 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:17:06,078 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/admin.py changed, reloading.
+INFO 2023-11-04 11:17:06,864 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:17:13,114 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 11:17:13,638 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:17:23,897 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/serializers.py changed, reloading.
+INFO 2023-11-04 11:17:24,423 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:17:25,571 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/serializers.py changed, reloading.
+INFO 2023-11-04 11:17:25,966 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:17:31,107 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 11:17:31,563 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:26:21,969 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 11:26:23,195 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:26:32,681 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 11:26:33,703 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:30:31,734 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/permissions.py changed, reloading.
+INFO 2023-11-04 11:30:32,433 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:31:26,076 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 11:31:26,737 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:31:31,920 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 11:31:32,445 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:31:37,629 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 11:31:38,078 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:31:40,221 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 11:31:40,726 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:31:48,163 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 11:31:49,044 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:31:50,210 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 11:31:50,583 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:31:53,726 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 11:31:54,161 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:32:00,381 autoreload /Users/cahire/Desktop/private/bewise/bewyse/myproject/myapp/views.py changed, reloading.
+INFO 2023-11-04 11:32:00,856 autoreload Watching for file changes with StatReloader
+INFO 2023-11-04 11:36:10,093 autoreload Watching for file changes with StatReloader
